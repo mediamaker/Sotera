@@ -1,0 +1,49 @@
+/*
+Theme Name:     Sotera Theme
+Theme URI: 		http://sotera.com/
+Description:    Custom theme for Sotera Wireless
+Author:         John Cozen 
+Author URI:     http://johncozen.com
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+body {background: white}
+#branding {border-top: none;padding-bottom: 10px;position: relative;z-index: 2;}
+img#logo{height: 67px; width:166px}
+
+#access {
+background: url('../images/menubar_m.png');-moz-border-radius: 11px;height: 40px;
+				border-radius: 11px;
+	li:hover > a, a:focus
+			{
+				background: none;
+				color: #1D59A2; 
+			}
+			a {
+				font-weight: normal; font-size: 16px;  line-height: 43px; border-right:1px solid #ccc;
+			}
+			
+}
+
+#access a {color: black;font-weight: normal;
+ }
+
+.menubar-m {
+    background: url("../images/menubar_m.png") repeat-x scroll 0 0 transparent;
+    height: 40px;
+}
+
+#access .current_page_item > a, #access .current_page_ancestor > a {
+    font-weight: normal;color: #1D59A2; 
+}
+
+.home #content{
+	margin: 0;
+}
+
+.home .entry-header, .home .entry-content  {
+width: 100%;
+}
